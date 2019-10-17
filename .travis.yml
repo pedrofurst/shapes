@@ -3,5 +3,4 @@ language:
 install:
   - npm install -g codecov
 script:
-  - istanbul cover jest --reporter lcovonly -- -R spec
-  - codecov
+  - jest && codecov
