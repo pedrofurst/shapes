@@ -13,6 +13,11 @@ A canvas plugin to draw geometrical shapes
 ## Requirements
   * node > 10
 
+## Integrations 
+  * [Travis ci](https://travis-ci.org/)
+  * [codecov](https://codecov.io/)
+  * [heroku](https://dashboard.heroku.com/)
+
 ## How to run
   * **Production**: just open `dist/index.html`
   * **Development**:
