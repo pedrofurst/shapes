@@ -1,14 +1,13 @@
-language:
-  node_js
+language: node_js
 node_js:
-  - stable
+- stable
 cache:
   directories:
   - node_modules
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_TOKEN
+    secure: pLtCGZ90ROJCpbgVGgErdTah35vkeZBzJ8xI1z8SZ0gENnWlnNciwRCIaflMA6QWJzW/gvcMpwWcV09oicEqgohI5DmHHvPwK/lpqsPpjbQDsu2xz4IYmYXD+9/6yOoJQSCxJss0q5eeWHVr3kNV2QWWiOTvf2qa8aP2/QIR1pvBHdoaR1PPqADZvulLMMGAxH+/InxV9a+y2ELKXeEOVf08nEwUcI9lmae/nOvw15AB/TuDqf8o5ag3vEpton4S2BwLbE9RzYwqrNUSnSb5HxDEvZJn+CF8/LIuEtBtn86SAO2ANJ0Vl7yiLohNQGw8TEbaC0dX/Hmddm34emfedJeYCnMm25BV5AgcM8uZuGL+Caw0N+nEMI99bOXHxJUV3GWixLVG/5VC+YUrWM5pfBZl4TNC/HaviSHkeItCyxsrrl2iBxhQqYPFAbGPLQn8GAvlCE+0Qo1bmIyCNlr/Ozk7b/YZ3Wyhf4pip9bvDHYY9DaGnHP1TUqDlDUFOanNQx+vzmWjdxeh1SvYsfvU0ARpBJSaR/EO7Onmr0iDVrVOCE2ttHZJLewze1NoRC6AF126RlMu5JGmMN5BzKmjwM7wJDAShG2skK0oy3Djr/Fvxi88O8svd1xAtYo1LH71Y2/CS5WmzRIARHLrVj9ov7VkhjT5yrJ5eWs25auCaEk=
   app: canvas-shapes
   on:
     repo: pedrofurst/shapes
