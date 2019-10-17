@@ -3,10 +3,10 @@
   "name": "Shapes",
   "version": "1.0.0",
   "description": "Shapes canvas plugin",
-  "main": "dist/index.js",
+  "main": "server.js",
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "start": "webpack-dev-server --inline --hot",
+    "start:dev": "webpack-dev-server --inline --hot",
     "heroku-prebuild": "npm install --dev",
     "test": "jest && codecov",
     "test:watch": "jest --watchAll",
@@ -19,9 +19,6 @@
   "author": "Pedro Furst",
   "bugs": {
     "url": "https://github.com/pedrofurst/shapes/issues"
-  },
-  "engines": {
-    "node": "12.12.0"
   },
   "homepage": "https://github.com/pedrofurst/shapes#readme",
   "devDependencies": {
