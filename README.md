@@ -13,7 +13,7 @@ A canvas plugin to draw geometrical shapes
 </div>
 
 ## Requirements
-  * node > 10
+  * node > 10 (only for dev environment)
 
 ## Integrations 
   * [Travis ci](https://travis-ci.org/)
