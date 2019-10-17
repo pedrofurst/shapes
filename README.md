@@ -8,7 +8,8 @@ A canvas plugin to draw geometrical shapes
 
 [![Build Status](https://travis-ci.org/pedrofurst/shapes.svg?branch=master)](https://travis-ci.org/pedrofurst/shapes)
 [![codecov](https://codecov.io/gh/pedrofurst/shapes/branch/master/graph/badge.svg)](https://codecov.io/gh/pedrofurst/shapes)
-
+![Heroku](https://heroku-badge.herokuapp.com/?app=canvas-shapes)
+![David (path)](https://img.shields.io/david/pedrofurst/shapes)
 </div>
 
 ## Requirements
