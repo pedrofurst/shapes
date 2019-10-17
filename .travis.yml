@@ -5,3 +5,10 @@ node_js:
 cache:
   directories:
   - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: KEY
+  app: canvas-shapes
+  on:
+    repo: pedrofurst/shapes
