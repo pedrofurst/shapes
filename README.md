@@ -39,15 +39,15 @@ Based on 3 random user points:
   * Draw a circle using the same parallelogram area and center of mass position
 
 The user can put three random points on the screen.
-When the user adds the third the app will calculate the fourth parallelogram point based on inputted points.
-After that, the app will draw the parallelogram, circle and show the area calculated
+When the user adds a third point the app will calculate the fourth parallelogram point based on the inputted points.
+After that, the app will draw the parallelogram, the circle and show the calculated area.
 
 ![image](https://user-images.githubusercontent.com/4452152/67042309-fd629800-f0fd-11e9-9bb0-8007a1e8d322.png)
 
 ## Usage
 ### User actions:
   * Mouse click to put a point
-  * Mouse click and move when the app draw geometrical shapes
+  * Mouse click and move when the draw is finished
   * `RESET` button: reset the screen
   * `ABOUT` button: informations
 
