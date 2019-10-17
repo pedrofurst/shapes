@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/pedrofurst/shapes/issues"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "homepage": "https://github.com/pedrofurst/shapes#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
