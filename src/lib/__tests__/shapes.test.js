@@ -143,7 +143,6 @@ describe('Shapes class', () => {
       expect(shapes.selectedPoint.x).toBe(4);
       expect(shapes.selectedPoint.y).toBe(4);
       expect(shapes.draw).toBeCalled();
-      expect(true).toBe(false);
     });
   });
 
