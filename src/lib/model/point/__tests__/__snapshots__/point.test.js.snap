@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Point class Should draw the point 1`] = `
+Array [
+  Object {
+    "props": Object {
+      "path": Array [
+        Object {
+          "props": Object {},
+          "transform": Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ],
+          "type": "beginPath",
+        },
+        Object {
+          "props": Object {
+            "anticlockwise": false,
+            "endAngle": 6.283185307179586,
+            "radius": 0.4,
+            "startAngle": 0,
+            "x": 10,
+            "y": 10,
+          },
+          "transform": Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ],
+          "type": "arc",
+        },
+      ],
+    },
+    "transform": Array [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+    ],
+    "type": "stroke",
+  },
+  Object {
+    "props": Object {
+      "path": Array [
+        Object {
+          "props": Object {},
+          "transform": Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ],
+          "type": "beginPath",
+        },
+        Object {
+          "props": Object {
+            "anticlockwise": false,
+            "endAngle": 6.283185307179586,
+            "radius": 5.5,
+            "startAngle": 0,
+            "x": 10,
+            "y": 10,
+          },
+          "transform": Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ],
+          "type": "arc",
+        },
+      ],
+    },
+    "transform": Array [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+    ],
+    "type": "stroke",
+  },
+  Object {
+    "props": Object {
+      "maxWidth": null,
+      "text": "x: 10",
+      "x": 10,
+      "y": 30,
+    },
+    "transform": Array [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+    ],
+    "type": "fillText",
+  },
+  Object {
+    "props": Object {
+      "maxWidth": null,
+      "text": "y: 10",
+      "x": 10,
+      "y": 45,
+    },
+    "transform": Array [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+    ],
+    "type": "fillText",
+  },
+]
+`;
