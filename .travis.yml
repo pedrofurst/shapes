@@ -8,7 +8,7 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: KEY
+    secure: $HEROKU_TOKEN
   app: canvas-shapes
   on:
     repo: pedrofurst/shapes
