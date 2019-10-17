@@ -12,3 +12,4 @@ deploy:
   app: canvas-shapes
   on:
     repo: pedrofurst/shapes
+    branch: master
