@@ -3,6 +3,7 @@
 <div align="center">
 
 A canvas plugin to draw geometrical shapes
+
 **live preview:** https://canvas-shapes.herokuapp.com/
 
 [![Build Status](https://travis-ci.org/pedrofurst/shapes.svg?branch=master)](https://travis-ci.org/pedrofurst/shapes)
