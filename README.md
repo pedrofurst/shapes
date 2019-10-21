@@ -28,7 +28,7 @@ A canvas plugin to draw geometrical shapes
 $ yarn
 
 // start develop server
-$ yarn start
+$ yarn start:dev
 ```
 ## Goal
 Based on 3 random user points:

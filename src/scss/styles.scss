@@ -53,6 +53,16 @@ body {
         text-decoration: none;
         cursor: pointer;
       }
+      .information {
+        font-size: 16px;
+        display: flex;
+        flex:1;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
     }
 
   }
