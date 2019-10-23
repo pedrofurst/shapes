@@ -55,6 +55,8 @@ export default class Shapes {
     this.selectedPoint.x = x;
     this.selectedPoint.y = y;
 
+    this.points = this.points.slice(0,3);
+    this.drawShapes();
     // call to draw every movement
     this.draw();
   }
@@ -69,13 +71,17 @@ export default class Shapes {
     // push a new point
     this.points.push(new Point(x, y, this.context));
     if (this.points.length === 3) { // trigger to draw the shapes when user selects 3 points
-      this.parallelogram = new Parallelogram(this.points, this.context); // instancing a parallelogram
-      this.points = this.parallelogram.points; // update points after the parallelogram calculate the last point
-      this.centerCircle = new CenterCircle(this.parallelogram, this.context); // create a new center circle instance using parallelogram reference
+      this.drawShapes();
     }
 
     // call draw function to draw on every click
     this.draw();
+  }
+
+  drawShapes() {
+    this.parallelogram = new Parallelogram(this.points, this.context); // instancing a parallelogram
+    this.points = this.parallelogram.points; // update points after the parallelogram calculate the last point
+    this.centerCircle = new CenterCircle(this.parallelogram, this.context); // create a new center circle instance using parallelogram reference
   }
 
   draw() {
