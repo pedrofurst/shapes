@@ -4,13 +4,12 @@ const color = 'blue'; // default color
 
 export default class Parallelogram {
   constructor(points, context) {
-    if(points.length <= 3){
-      // calculate the last point when instance a Index
-      const lastParallelogramPosition = Parallelogram.calculateLastParallelogramPosition(points);
+    // calculate the last point when instance a Index
+    const lastParallelogramPosition = Parallelogram.calculateLastParallelogramPosition(points);
 
-      // create parallelogram using 4 points
-      this.points = [...points, new Point(lastParallelogramPosition.x, lastParallelogramPosition.y, context)];
-    }
+    // create parallelogram using 4 points
+    this.points = [...points, new Point(lastParallelogramPosition.x, lastParallelogramPosition.y, context)];
+
     this.context = context;
   }
 
